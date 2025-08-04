@@ -2,7 +2,7 @@
 
 #include<iostream>
 /*
-#include<iostream>
+#include<iostream> pre processer directive
 This line includes the input/output stream library in your program.
 iostream stands for Input/Output Stream and is necessary to use cin (for input) and cout (for output).
 The #include directive tells the compiler to include the contents of the file <iostream> before compiling.*/
