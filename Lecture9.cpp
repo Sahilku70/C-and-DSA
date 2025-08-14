@@ -35,7 +35,6 @@ int main(){
     return 0;
 }
 
-*/
 
 //Find the maximum value out of all the elements in the array.
 
@@ -53,3 +52,6 @@ int main(){
     cout<<max;
     return 0;
 }
+
+*/
+
