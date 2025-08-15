@@ -55,3 +55,28 @@ int main(){
 
 */
 
+//Search if a given element is present in the array or not.If it is not present then return -1 else return the index.
+
+#include<iostream>
+using namespace std;
+int main(){
+    int n,m;
+    cout<<"Enter the size of array: ";
+    cin>>n;
+    int arr[n];
+    cout<<"Enter values of array: ";
+    for(int i=0;i<n;i++){
+        cin>>arr[i];
+    }
+
+    cout<<"Enter number for search: ";
+    cin>>m;
+    for(int i=0;i<n;i++){
+        if(arr[i]==m){
+            cout<<m;
+        }
+        
+    }
+
+    return 0;
+}
