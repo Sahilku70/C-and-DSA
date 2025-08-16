@@ -60,7 +60,9 @@ int main(){
 #include<iostream>
 using namespace std;
 int main(){
-    int n,m;
+    int n;
+    int m;
+    int a=-1;
     cout<<"Enter the size of array: ";
     cin>>n;
     int arr[n];
@@ -71,12 +73,14 @@ int main(){
 
     cout<<"Enter number for search: ";
     cin>>m;
+    // int m=2;
     for(int i=0;i<n;i++){
         if(arr[i]==m){
-            cout<<m;
+            a=i;
         }
         
     }
+    cout<<a;
 
     return 0;
 }
