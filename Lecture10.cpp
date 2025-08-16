@@ -1,7 +1,6 @@
 /*
 
-C++ Vector
-A vector in C++ is like a resizable array.
+C++ Vector:- a vector in C++ is like a resizable array.
 
 Both vectors and arrays are data structures used to store multiple elements of the same data type.
 
